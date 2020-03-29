@@ -7,7 +7,7 @@ function totalCasesChart(ctx, data) {
     type: "line",
     data: {
       labels: confirmed.map(item =>
-        new Intl.DateTimeFormat("es-MX", {
+        new Intl.DateTimeFormat("es-CO", {
           month: "long",
           day: "numeric"
         }).format(new Date(item.date))
